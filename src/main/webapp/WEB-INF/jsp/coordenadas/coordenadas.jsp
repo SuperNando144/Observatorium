@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Observatorium - Telescópio</title>
+<title>Observatorium - Coordenadas</title>
 
 <link rel="stylesheet" type="text/css"
 	href="<c:url value='/resource/css/bootstrap.min.css'/>">
@@ -80,8 +80,10 @@
 			<div class="col-md-4 imagem">[PLACEHOLDER]</div>
 
 			<div class="col-md-8 descricao">
-				<img src="http://177.194.47.47:8081/" 
-				alt="Telescópio">
+				
+					Azimute: <input type="text" name="fname"><br> 
+					Inclinação: <input type="text" name="lname"><br> 
+					<a href="/observatorium/telescopio">Enviar</a>
 			</div>
 
 		</div>
